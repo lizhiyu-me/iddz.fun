@@ -16,6 +16,7 @@ export default function Counter(props: CounterProps) {
       <p class="flex-grow-1 font-bold text-xl">{count}</p>
       <Button
         onClick={async () => {
+          console.log("click!!!!!!")
           const newCount = count - 1;
           const resp = await fetchSetCount(newCount);
           if (resp.ok) {

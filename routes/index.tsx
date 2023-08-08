@@ -19,7 +19,7 @@ export default function Home(props: PageProps<HomeProps>) {
   return (
     <>
       <Head>
-        <title>Fresh App with Deno KV</title>
+        <title>playbg</title>
       </Head>
       <div class="p-4 mx-auto max-w-screen-md">
         <img
@@ -28,8 +28,7 @@ export default function Home(props: PageProps<HomeProps>) {
           alt="the fresh logo: a sliced lemon dripping with juice"
         />
         <p class="my-6">
-          Welcome to `fresh`. Try updating this message in the
-          ./routes/index.tsx file, and refresh.
+         This will be a great board game site, just for fun.
         </p>
         <Counter start={props.data.start} />
       </div>
